@@ -7,22 +7,21 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID", "26249286"))
-API_HASH = getenv("API_HASH", "4e3bf0b014fda4ac752e8f4ab854279b")
+API_ID = int(getenv("API_ID", "23164984"))
+API_HASH = getenv("API_HASH", "60158a79dd9f30bb90d4a4b431953fcc")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "7608476761:AAHOYX1Kq92KF-4YuN5vlCAePqzexK8w3LI")
+BOT_TOKEN = getenv("7608476761:AAEAlVM8eB0GyfaHUD2rphqSf_ISZZC-cTs")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://musicbotxd:musicbotxd@cluster0.6thyk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://ftyvfbgubhu7:hDZwwlNzlKBzls84@ameliamusicbot.f7dzw.mongodb.net/?retryWrites=true&w=majority&appName=AmeliaMusicbot")
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 1700))
 
 # Chat id of a group for logging bot's activities
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", -1002745123292))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", -1002616050482))
 
 # Get this value from @MissRose_Bot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "6018803920"))
+OWNER_ID = int(getenv("OWNER_ID", "7743740062"))
 
 #YOUTUBE API's 
 API_URL = getenv("API_URL", 'https://www.googleapis.com/youtube/v3/search?part=snippet&q=your_search_query&key=AIzaSyD_iwN3MADFGdp4xCZFo4G-e04BPyFORms') #youtube song url
@@ -43,8 +42,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/eldian_bot_update")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/+vuzPm5BpV3Y0NTVl")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Arise_Updates")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/The_Thrive_Nation")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
